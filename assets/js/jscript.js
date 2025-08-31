@@ -57,13 +57,13 @@ function relogio() {
     if(segundo == 0 && minuto > 0){
 
         minuto--
-        segundo = 59
+        segundo = 60
 
     }else if(hora > 0 && segundo == 0 && minuto == 0){
         
         hora--
         minuto = 2
-        segundo = 59
+        segundo = 60
 
     }
 
