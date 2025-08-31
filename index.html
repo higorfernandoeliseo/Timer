@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <h1>Cronômetro</h1>
+
+    <div id="cronometro">
+        <div class="timer">
+            <input type="number" id="horas" placeholder="00" step=".01"><span class="separator"> : </span>
+            <input type="number" id="minutos" placeholder="00" max="2"><span class="separator"> : </span>
+            <input type="number" id="segundos" placeholder="00" max="2">
+        </div>
+        <div class="controls">
+            <input type="button" id="start_timer" value=" Iniciar " onclick="iniciar()">
+            <input type="button" id="pause_timer" value=" Pausar " onclick="pausar()">
+            <input type="button" id="reset_timer" value=" Zerar " onclick="zerar()">
+        </div>
+        <div class="copyright">
+            Desenvolvido por Igor Eliseo.
+        </div>
+
+    </div>
+    <script src="assets/js/jscript.js"></script>
+</body>
+</html>
