@@ -30,7 +30,7 @@ function relogio() {
     let segundo_input = document.querySelector('input#segundos')
 
     if(segundo_input.value.length == 0){
-        segundo = 59
+        segundo = 60
     }else{
         segundo = segundo_input.value
     }
@@ -57,13 +57,13 @@ function relogio() {
     if(segundo == 0 && minuto > 0){
 
         minuto--
-        segundo = 60
+        segundo = 59
 
     }else if(hora > 0 && segundo == 0 && minuto == 0){
         
         hora--
         minuto = 2
-        segundo = 60
+        segundo = 59
 
     }
 
