@@ -97,3 +97,8 @@ div.copyright {
     text-align: center;
     font: normal 14px 'inter';
 }
+
+div.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
